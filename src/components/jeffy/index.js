@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const Jeffy = () => {
     return (
-        <div>
-            <h2>Welcome jeffy</h2>
+        <div data-test="jeffyComponent">
+            <h2 data-test="title">Welcome jeffy</h2>
         </div>
     );
-}
+};
 
 export default Jeffy;
